@@ -497,6 +497,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1900000031}
+  - component: {fileID: 1900000032}
   m_Layer: 0
   m_Name: Siren_Pivot
   m_TagString: Untagged
@@ -513,6 +514,19 @@ Transform:
   - {fileID: 1900000041}
   - {fileID: 1900000051}
   m_Father: {fileID: 1900000011}
+--- !u!114 &1900000032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900000030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6080b6161f6443318c280c4c1dfc6d22, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rotationSpeed: 120
 --- !u!1 &1900000040
 GameObject:
   m_ObjectHideFlags: 0
